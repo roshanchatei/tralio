@@ -52,15 +52,5 @@ yarn start
 **Server:** Node, Express
 
 
-## Authors
 
-- [@saketharshraj](https://www.github.com/saketharshraj)
-
-- [@manisa18](https://www.github.com/manisa18)
-
-- [@palsiddharth091](https://www.github.com/palsiddharth091)
-
-- [@Sibananda-Sahu17](https://www.github.com/Sibananda-Sahu17)
-
-- [@rohsanchatei](https://www.github.com/saketharshraj)
 
