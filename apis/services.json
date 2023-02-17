@@ -1,0 +1,7 @@
+{
+    "authentication": "authentication",
+    "user" : "v1/user",
+    "blog": "v1/blog",
+    "portfolio": "v1/portfolio",
+    "email": "v1/email"
+}

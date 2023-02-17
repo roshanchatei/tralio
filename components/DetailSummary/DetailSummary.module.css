@@ -1,0 +1,57 @@
+.structure {
+  padding: 2rem 0;
+}
+.right_image {
+  display: flex;
+  justify-content: flex-end;
+}
+.details {
+  font-family: 'Nunito Sans';
+  text-align: left;
+  width: 47%;
+}
+.details > p {
+  margin: 0.5rem 0;
+  text-align: justify;
+}
+.details > h2 {
+  margin: 0.8rem 0;
+}
+.dash {
+  border-top: 3px solid black;
+  width: 5rem;
+}
+@media screen and (max-width: 900px) {
+  .details h2 {
+    font-size: 1.1em;
+  }
+  .imgSize {
+    width: 65%;
+  }
+  .details p {
+    font-size: 0.9em;
+  }
+  .dash {
+    width: 3rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .structure {
+    padding: 1rem 1rem;
+    text-align: center;
+  }
+  .imgSize {
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+  }
+  .details {
+    text-align: center;
+  }
+  .details h2 {
+    font-size: 1.12em;
+  }
+  .dash {
+    display: none;
+  }
+}

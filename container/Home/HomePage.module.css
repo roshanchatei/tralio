@@ -1,0 +1,99 @@
+.feature_start {
+  padding: 2rem 0 2rem;
+  font-family: "Nunito Sans";
+}
+.testimonial_start {
+  font-family: "Nunito Sans";
+}
+.feature_start h2{
+  font-size: 2.1rem;
+  margin: 0.5rem;
+}
+.testimonial_start h2{
+    font-size: 2.1rem;
+    padding: 2rem 0.5rem;
+}
+.feature_start p {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+.feature_start,
+.profBox,
+.testimonial_start {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.profBox {
+  padding: 2rem 0 7rem;
+}
+.bt {
+  display: flex;
+  padding: 0.9rem 1.8rem;
+  font-size: 1.15rem;
+  border: 2px solid #458ff6;
+  border-radius: 0.2rem;
+  background-color: #458ff6;
+  color: white;
+  cursor: pointer;
+}
+.bt:hover {
+  background-color: white;
+  color: #458ff6;
+}
+.profile {
+  font-family: "Mulish";
+  color: #49494a;
+  font-weight: 700;
+  font-size: 2.2em;
+}
+.testimonial {
+  background-color: #e9f4ff;
+  padding: 1rem 1rem 3rem;
+}
+.increase_padding{
+  padding: 5rem 0;
+}
+
+@media screen and (max-width: 900px) {
+  .feature_start h2,
+  .testimonial_start h2 {
+    font-size: 1.6rem;
+  }
+  .feature_start p {
+    font-size: 0.9rem;
+  }
+  .profile {
+    font-size: 1.7em;
+  }
+  .bt {
+    padding: 0.7rem 1.5rem;
+    font-size: 1em;
+  }
+}
+@media (max-width: 600px) {
+  .feature_start h2,
+  .testimonial_start h2 {
+    font-size: 1.4rem;
+  }
+  .testimonial_start h2{
+    padding: 1rem 0;
+  }
+  .profBox {
+    padding: 1.5rem 0 5rem;
+  }
+  .bt {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.8em;
+  }
+  .profile {
+    font-size: 1.4em;
+  }
+  .increase_padding{
+    padding: 2rem 0;
+  }
+  .testimonial{
+    padding: 1rem;
+  }
+}
